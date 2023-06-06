@@ -25,7 +25,6 @@ namespace WinFile
 
         private void ListFiles()
         {
-
             folderBrowserDialog1.Description = "Wählen sie aus";
             folderBrowserDialog1.ShowNewFolderButton = false;
 
@@ -34,6 +33,8 @@ namespace WinFile
             {
                 var folder = folderBrowserDialog1.SelectedPath;
                 var allFiles = Directory.GetFiles(folder);
+
+                lbFiles.Items.Clear();
                 foreach (var file in allFiles)
                 {
                     lbFiles.Items.Add(file);

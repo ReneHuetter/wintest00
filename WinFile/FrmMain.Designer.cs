@@ -53,7 +53,7 @@
             this.lbFiles.FormattingEnabled = true;
             this.lbFiles.Location = new System.Drawing.Point(16, 89);
             this.lbFiles.Name = "lbFiles";
-            this.lbFiles.Size = new System.Drawing.Size(215, 368);
+            this.lbFiles.Size = new System.Drawing.Size(323, 368);
             this.lbFiles.TabIndex = 1;
             // 
             // FrmMain
