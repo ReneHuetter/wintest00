@@ -52,6 +52,8 @@ namespace WinTaschenrechner
         }
         private void divide()
         {
+            if (txtNumberTwo.Value == 0 || txtNumberOne.Value == 0)
+                return;
             txtErgebniss.Text = $"{txtNumberOne.Value / txtNumberTwo.Value:N2}";
         }
     }

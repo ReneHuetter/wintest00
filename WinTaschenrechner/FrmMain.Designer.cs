@@ -69,6 +69,11 @@
             // 
             this.txtNumberOne.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.txtNumberOne.Location = new System.Drawing.Point(126, 106);
+            this.txtNumberOne.Maximum = new decimal(new int[] {
+            9999999,
+            0,
+            0,
+            0});
             this.txtNumberOne.Name = "txtNumberOne";
             this.txtNumberOne.Size = new System.Drawing.Size(540, 33);
             this.txtNumberOne.TabIndex = 2;
@@ -78,6 +83,11 @@
             // 
             this.txtNumberTwo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.txtNumberTwo.Location = new System.Drawing.Point(126, 145);
+            this.txtNumberTwo.Maximum = new decimal(new int[] {
+            9999999,
+            0,
+            0,
+            0});
             this.txtNumberTwo.Name = "txtNumberTwo";
             this.txtNumberTwo.Size = new System.Drawing.Size(539, 33);
             this.txtNumberTwo.TabIndex = 3;
