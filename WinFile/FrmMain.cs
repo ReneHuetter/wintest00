@@ -28,7 +28,7 @@ namespace WinFile
             folderBrowserDialog1.Description = "Wählen sie aus";
             folderBrowserDialog1.ShowNewFolderButton = false;
 
-            var result = folderBrowserDialog1.ShowDialog();
+            var result = folderBrowserDialog1.ShowDialog(this);
             if (result == DialogResult.OK)
             {
                 var folder = folderBrowserDialog1.SelectedPath;

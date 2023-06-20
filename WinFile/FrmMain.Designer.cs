@@ -53,7 +53,7 @@
             this.lbFiles.FormattingEnabled = true;
             this.lbFiles.Location = new System.Drawing.Point(16, 89);
             this.lbFiles.Name = "lbFiles";
-            this.lbFiles.Size = new System.Drawing.Size(323, 368);
+            this.lbFiles.Size = new System.Drawing.Size(754, 368);
             this.lbFiles.TabIndex = 1;
             // 
             // FrmMain
@@ -63,6 +63,7 @@
             this.ClientSize = new System.Drawing.Size(816, 489);
             this.Controls.Add(this.lbFiles);
             this.Controls.Add(this.btnFilletoList);
+            this.MinimumSize = new System.Drawing.Size(832, 528);
             this.Name = "FrmMain";
             this.Text = "File";
             this.ResumeLayout(false);
