@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WinPwdMag48
+namespace WinPwdMagr48V1
 {
     internal static class Program
     {
